@@ -1,0 +1,16 @@
+/* Bella.CSS – custom overrides */
+
+/* 1. Change all fonts to Times New Roman */
+* {
+    font-family: "Times New Roman", Times, serif !important;
+}
+
+/* 2. Make the last name (text-primary span in H1) blue */
+h1 .text-primary {
+    color: lightskyblue !important;
+}
+
+/* 3. Change the orange background (navbar bg-primary) to light blue */
+.bg-primary {
+    background-color: lightskyblue !important; /* light blue */
+}
